@@ -823,21 +823,21 @@ header .logo a {
 	outline: none;
 	font: 0/0 a;
 	text-shadow: none;
-	color: transparent;
-	width: 126px;
-	height: 12px;
+	color: white;
+	width: 226px;
+	height: 22px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-image: url("../images/logo.png");
+	/* background-image: url("../images/logo.png"); */
 }
-@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+/* @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
-		background-image: url("../images/logo-@2x.png");
+		 background-image: url("../images/logo-@2x.png"); 
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
 	}
-}
+}  */
 .opaque {
 	background: #12151b;
 }
@@ -1278,7 +1278,7 @@ hr {
 /* k. Hero Section
 /* =================================================================== */
 #hero {
-	background: #12151b url(../images/hero-bg.jpg) no-repeat center center fixed;
+	background: #12151b url(../images/hero2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
